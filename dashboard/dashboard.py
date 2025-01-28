@@ -5,12 +5,12 @@ import seaborn as sns
 from PIL import Image
 
 # Load datasets
-orders = pd.read_csv('E-Commerce Public Dataset/orders_dataset.csv')
-products = pd.read_csv('E-Commerce Public Dataset/products_dataset.csv')
-sellers = pd.read_csv('E-Commerce Public Dataset/sellers_dataset.csv')
-category_translation = pd.read_csv('E-Commerce Public Dataset/product_category_name_translation.csv')
-order_items = pd.read_csv('E-Commerce Public Dataset/order_items_dataset.csv')
-customer_reviews = pd.read_csv('E-Commerce Public Dataset/order_reviews_dataset.csv') 
+orders = pd.read_csv('../E-Commerce Public Dataset/orders_dataset.csv')
+products = pd.read_csv('../E-Commerce Public Dataset/products_dataset.csv')
+sellers = pd.read_csv('../E-Commerce Public Dataset/sellers_dataset.csv')
+category_translation = pd.read_csv('../E-Commerce Public Dataset/product_category_name_translation.csv')
+order_items = pd.read_csv('../E-Commerce Public Dataset/order_items_dataset.csv')
+customer_reviews = pd.read_csv('../E-Commerce Public Dataset/order_reviews_dataset.csv') 
 
 # Sidebar filter
 st.sidebar.header('Filter Data')
